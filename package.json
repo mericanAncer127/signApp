@@ -1,0 +1,95 @@
+{
+  "name": "frontend-copy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.17",
+    "@mui/material": "^5.15.17",
+    "@mui/styled-engine-sc": "6.0.0-alpha.18",
+    "@mui/x-date-pickers": "^7.3.2",
+    "@mui/x-date-pickers-pro": "^7.3.2",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@reduxjs/toolkit": "^2.2.4",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^16.11.21",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.33",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.11",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "g": "^2.0.1",
+    "luxon": "^3.4.4",
+    "pdf.js": "^0.1.0",
+    "pdfjs-dist": "^3.4.120",
+    "pnpm": "^9.1.0",
+    "react": "^17.0.2",
+    "react-big-calendar": "^1.12.1",
+    "react-confirm-alert": "^2.8.0",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^5.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^3.1.0",
+    "styled-components": "^6.1.11",
+    "typescript": "^4.5.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "react"
+    ],
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/react-big-calendar": "^1.8.9",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-window": "^1.8.8",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1",
+    "react-window": "^1.8.10"
+  }
+}
