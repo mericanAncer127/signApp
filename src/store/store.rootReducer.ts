@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import eventReducers from "./eventSlice";
+import signReducers from "./signSlice";
 
 const rootReducer = combineReducers({
-  event: eventReducers,
+  event: signReducers,
 });
 
 export default rootReducer;

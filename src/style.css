@@ -1,0 +1,22 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.description {
+  padding: 10px;
+}
+.target {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  /* line-height: 100px; */
+  padding: 10px;
+  text-align: center;
+  background: #ee8;
+  color: #333;
+  font-weight: bold;
+  box-sizing: border-box;
+}

@@ -1,32 +1,20 @@
-import React, { useEffect } from "react";
+import * as React from "react";
+import "./global.less";
+import { isPC } from "./util/help";
+import { useCloneSignCanvas, useDrawSignInCanvas, useEditPdf } from "./hooks/";
+import MyPDFViewer from "./components/PDFViewer/myPDFViewer";
+import SignEditor from "./containers/signEditor";
+// import PDFViewer from "pdf-viewer-reactjs";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+const { useState, useCallback, useRef } = React;
 
-import Header from "./components/Header/Header";
-import "./App.css";
-import MyPDFViewr from "./components/PDFViewer/myPDFViewer";
-
-function App() {
+const App = () => {
   return (
-    <Router>
-      <React.Fragment>
-        <Header />
-        <main className="container">
-          <Routes>
-            <Route path="/" element={<Navigate to="/sign" />} />
-            {/* <Route path="sign" element={<MyPDFViewr />} /> */}
-          </Routes>
-          {/* <CalendarPage /> */}
-          {/* </Route> */}
-        </main>
-      </React.Fragment>
-    </Router>
+    <div className={`${isPC ? "pcMode" : ""}`}>
+      <div className="pdf-wrap">
+        <MyPDFViewer />
+      </div>
+    </div>
   );
-}
-
+};
 export default App;
